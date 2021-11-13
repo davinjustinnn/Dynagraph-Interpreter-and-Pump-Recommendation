@@ -153,7 +153,7 @@ st.write("Pumping Unit System Analysis Remarks :",PUSResult)
 '''
 data = [[Structure,Well,round(PSEResult,4),round(SPResult,2),PUSResult]]
 
-output_df = pd.DataFrame(data,columns=["Structure","Well","Pumping System Efficiency Value (%)","Swabbing Parameter Analysis Value","Pumping Unit System Analysis Remarks :"])
+output_df = pd.DataFrame(data,columns=["Structure","Well","Pumping System Efficiency Value (%)","Swabbing Parameter Analysis Value","Pumping Unit System Analysis Remarks"])
 
 output_df=output_df.set_index('Structure')
 
